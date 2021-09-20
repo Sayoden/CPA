@@ -9,11 +9,11 @@ public class Constante extends ExpressionArithmetique {
 
     @Override
     public double eval() {
-        return 0;
+        return this.c;
     }
 
     @Override
     public String toString() {
-        return null;
+        return Double.toString(this.c);
     }
 }

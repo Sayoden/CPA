@@ -3,6 +3,7 @@ package td2;
 public abstract class ExpressionArithmetique {
 
     public ExpressionArithmetique() {
+        super();
     }
 
     public abstract double eval();
