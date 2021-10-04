@@ -1,13 +1,8 @@
 package td3;
 
 public class Porcepic extends Animal{
-    @Override
-    public String strategieDeplacement() {
-        return new DeplacementMarche().deplacement();
-    }
 
-    @Override
-    public String strategieCombat() {
-        return new CombatLancer().combat();
+    protected Porcepic(IStrategieDeplacement deplacement, IStrategieCombat combat) {
+        super(new DeplacementMarche(), new CombatLancer());
     }
 }

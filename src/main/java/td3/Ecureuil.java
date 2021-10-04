@@ -1,13 +1,9 @@
 package td3;
 
 public class Ecureuil extends Animal {
-    @Override
-    public String strategieDeplacement() {
-        return new DeplacementArbre().deplacement();
+
+    protected Ecureuil() {
+        super(new DeplacementArbre(), new CombatBomb());
     }
 
-    @Override
-    public String strategieCombat() {
-        return new CombatBomb().combat();
-    }
 }

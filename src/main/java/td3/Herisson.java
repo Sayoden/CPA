@@ -1,13 +1,9 @@
 package td3;
 
 public class Herisson extends Animal{
-    @Override
-    public String strategieDeplacement() {
-        return new DeplacementMarche().deplacement();
+
+    protected Herisson(IStrategieDeplacement deplacement, IStrategieCombat combat) {
+        super(new DeplacementMarche(), new CombatLancer());
     }
 
-    @Override
-    public String strategieCombat() {
-        return new CombatLancer().combat();
-    }
 }

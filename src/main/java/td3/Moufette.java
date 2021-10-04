@@ -1,13 +1,9 @@
 package td3;
 
 public class Moufette extends Animal {
-    @Override
-    public String strategieDeplacement() {
-        return new DeplacementTrot().deplacement();
+
+    protected Moufette(IStrategieDeplacement deplacement, IStrategieCombat combat) {
+        super(new DeplacementTrot(), new CombatLancer());
     }
 
-    @Override
-    public String strategieCombat() {
-        return new CombatLancer().combat();
-    }
 }
