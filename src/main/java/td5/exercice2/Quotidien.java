@@ -38,6 +38,7 @@ public class Quotidien extends Observable{
         this.titre = titre;
 
         this.getSupport().firePropertyChange("titre", oldTitre, titre);
+
     }
 
     public void setContenu(String[] contenu) {
@@ -45,5 +46,6 @@ public class Quotidien extends Observable{
         this.contenu = contenu;
 
         this.getSupport().firePropertyChange("contenu", oldContenu, contenu);
+
     }
 }

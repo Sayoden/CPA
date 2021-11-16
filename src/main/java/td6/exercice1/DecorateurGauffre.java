@@ -1,4 +1,4 @@
-package td6;
+package td6.exercice1;
 
 public abstract class DecorateurGauffre extends Gauffre {
 

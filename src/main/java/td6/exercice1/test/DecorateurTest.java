@@ -1,9 +1,9 @@
-package td6.test;
+package td6.exercice1.test;
 
-import td6.Gauffre;
-import td6.GauffreBruxelloise;
-import td6.decorateurs.IngreditChocolat;
-import td6.decorateurs.SupplementChantilly;
+import td6.exercice1.Gauffre;
+import td6.exercice1.GauffreBruxelloise;
+import td6.exercice1.decorateurs.IngreditChocolat;
+import td6.exercice1.decorateurs.SupplementChantilly;
 
 public class DecorateurTest {
 

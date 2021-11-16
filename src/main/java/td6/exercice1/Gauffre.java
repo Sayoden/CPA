@@ -1,4 +1,4 @@
-package td6;
+package td6.exercice1;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,2 +1,4 @@
-package proxy;public class Entreprise {
+package proxy;
+
+public class Entreprise {
 }

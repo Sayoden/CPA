@@ -1,7 +1,7 @@
-package td6.decorateurs;
+package td6.exercice1.decorateurs;
 
-import td6.DecorateurGauffre;
-import td6.Gauffre;
+import td6.exercice1.DecorateurGauffre;
+import td6.exercice1.Gauffre;
 
 public class IngredientConfiture extends DecorateurGauffre {
 

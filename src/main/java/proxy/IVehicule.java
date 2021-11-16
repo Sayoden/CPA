@@ -1,2 +1,6 @@
-package proxy;public interface IVehicule {
+package proxy;
+
+public interface IVehicule {
+
+    void conduit();
 }
